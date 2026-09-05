@@ -1,6 +1,8 @@
 # Healthcare Patient Data Analysis
 
-> End-to-end Patient Demographics, Insurance &amp; Registration Analysis using DuckDB and PowerBI
+> End-to-end Patient Demographics, Insurance &amp; Registration Analysis
+
+> SQL • DuckDB • Power BI • Data Cleaning • EDA
 ---
 
 ## **Project Overview**
@@ -47,6 +49,8 @@ Raw Dataset
      ↓
 Data Profiling
      ↓
+Data Qulity Audit
+     ↓
 Data Cleaning
      ↓
 Data Validation
@@ -57,7 +61,13 @@ Data Visualization
      ↓
 Power BI Dashboard
      ↓
-Insights & Conclusion
+Insights
+     ↓
+Project Structure
+     ↓
+Skills Demonstrated
+     ↓
+Conclusion
 ```
 ---
 ## 1. Data Cleaning
@@ -201,7 +211,7 @@ The cleaned dataset was imported into Power BI to create an interactive dashboar
 - Insurance Provider
 
 **Dashboard Preview**
-![alt text](imageURL)
+![alt text](images/patient_analytics_dashboard.png)
 
 ## 5. Key Insights
 
@@ -216,7 +226,7 @@ The cleaned dataset was imported into Power BI to create an interactive dashboar
 - Patient registrations were relatively stable between 2023 and 2025.
 - Registration volume decreased in 2026, although this may be influenced by the dataset's time coverage.
 
-## Project Structure
+## 6. Project Structure
 
 ```
 healthcare-patient-analysis/
@@ -227,9 +237,10 @@ healthcare-patient-analysis/
 │
 ├── sql/
 │   ├── 01_profiling.sql
-│   ├── 02_cleaning.sql
-│   ├── 03_validation.sql
-│   └── 04_eda.sql
+│   ├── 02.quality_audit.sql
+│   ├── 03.cleaning.sql
+│   ├── 04.validation.sql
+│   └── 05.eda.sql
 │
 ├── powerbi/
 │   └── patient_analytics_dashboard.pbix
@@ -239,4 +250,37 @@ healthcare-patient-analysis/
 │
 └── README.md
 ```
+## 7. Skills Demonstrated
 
+- SQL
+- DuckDB
+- Data Cleaning
+- Data Profiling
+- Data Validation
+- Exploratory Data Analysis
+- Power Query
+- Power BI
+- Data Visualization
+- Data Quality Management
+- Data Storytelling
+
+## 8. Conclusion
+This project demonstrates an end-to-end data analytics workflow, from
+raw data profiling and cleaning to exploratory analysis and dashboard
+development.
+
+Using DuckDB and SQL, various data quality issues were identified and
+addressed before the data was analyzed in Power BI. The resulting
+dashboard provides an overview of patient demographics, insurance
+providers, geographic distribution, and registration trends.
+
+The project strengthened my practical experience in SQL, data
+cleaning, data validation, exploratory data analysis, and Power BI
+visualization, while also demonstrating the importance of making
+appropriate data quality decisions before generating insights.
+
+
+---
+
+### 👤 Author
+Muhammad Faza Arifin
