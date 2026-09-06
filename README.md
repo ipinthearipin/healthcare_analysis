@@ -215,16 +215,10 @@ The cleaned dataset was imported into Power BI to create an interactive dashboar
 
 ## 5. Key Insights
 
-**Patient Demographics**
-- The dataset contains 600 patients.
-- Male patients represent a slightly larger proportion than female patients.
-- The largest age group is 45–54 years.
-**Insurance**
-- The dataset contains 8 insurance providers.
-- Medicaid, UnitedHealth, Aetna, Medicare, and BlueCross are among the top insurance providers.
-**Registration**
-- Patient registrations were relatively stable between 2023 and 2025.
-- Registration volume decreased in 2026, although this may be influenced by the dataset's time coverage.
+- Patient registrations remained relatively stable from 2023 to 2025, averaging around 167 patients annually, while 2026 showed a lower volume that may reflect incomplete-year data.
+- Female patients slightly outnumbered male patients, representing approximately 54% of the patient population.
+- Patients aged 45–54 formed the largest age group, indicating a relatively high concentration of middle-aged patients.
+- Patients were geographically diverse, covering 59 states and 589 cities, with Medicaid and UnitedHealth among the leading insurance providers.
 
 ## 6. Project Structure
 
